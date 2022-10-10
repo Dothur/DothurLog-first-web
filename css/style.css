@@ -1,0 +1,62 @@
+/* 
+    웹 폰트
+*/
+@font-face { 
+  font-family: 'HBIOS-SYS';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    font-size: large;
+    font-family: 'HBIOS-SYS';
+    background-color: #E8D24E;
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  h1{
+    font-size: 50px;
+    text-align: left;
+    border-bottom: 2px solid gray;
+    margin: 0px;
+    padding: 20px;
+  }
+  ol{
+    border-right: 2px solid gray;
+    width: 100px;
+    margin: 0px;
+    padding: 20px;
+  }
+  #grid{
+    display: grid;
+    border-bottom: 1px solid gray;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{
+    padding-left: 32px;
+  }
+  #grid #article {
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+  /* 
+      웹 크기가 800px 이하 일때 레이아웃 변경
+   */
+  @media (max-width:800px) {
+    #grid{
+     display: block;
+    }
+    ol{
+      border-right: none;
+    }
+    h1{
+      border-bottom: none;
+    }
+  }
+  #btn1{
+    float: right;
+    width: 60px;
+  }
