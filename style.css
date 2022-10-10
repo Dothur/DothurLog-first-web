@@ -1,4 +1,13 @@
+@font-face {
+  font-family: 'HBIOS-SYS';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 body{
+    font-size: x-large;
+    font-family: 'HBIOS-SYS';
+    background-color: #E8D24E;
     margin: 0;
   }
   a{
@@ -6,7 +15,7 @@ body{
   }
   h1{
     font-size: 50px;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid gray;
     margin: 0px;
     padding: 20px;
